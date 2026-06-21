@@ -265,13 +265,12 @@ In addition to the cleaned raw features, the following interaction and ratio fea
 
 | Feature | Formula | Rationale |
 |---|---|---|
-| `bathroom_bedroom_ratio` | `bathrooms / (bedrooms + ε)` | Captures relative room balance |
-| `size_per_bedroom` | `sizeMin / (bedrooms + ε)` | Space efficiency per bedroom |
-| `size_per_bathroom` | `sizeMin / (bathrooms + ε)` | Space efficiency per bathroom |
-| `bedrooms_per_size` | `bedrooms / (sizeMin + ε)` | Room density |
+| `bathroom_bedroom_ratio` | `bathrooms / bedrooms` | Captures relative room balance |
+| `size_per_bedroom` | `sizeMin / bedrooms` | Space efficiency per bedroom |
+| `size_per_bathroom` | `sizeMin / bathrooms` | Space efficiency per bathroom |
+| `bedrooms_per_size` | `bedrooms / sizeMin` | Room density |
 | `bedrooms_bathrooms_interaction` | `bedrooms × bathrooms` | Joint room count signal |
 
-`ε = 1e-6` is used to prevent division by zero.
 
 The categorical column `displayAddress` (area and city) is encoded using **Target Encoding** inside the pipeline.
 
