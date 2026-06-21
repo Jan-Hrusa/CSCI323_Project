@@ -305,22 +305,30 @@ This project follows the code quality guidelines specified in the CSCI323 projec
 
 | Member | Student ID | Role/Responsibilities |
 |---|---|---|
-| [Jan Hrusa] | [8848580] | [Project Manager, Code Review and Formatting, Report Compilation and Formatting, Presentation Compilation] |
-| [Name] | [ID] | [Role] |
-| [Name] | [ID] | [Role] |
-| [Name] | [ID] | [Role] |
-| [Name] | [ID] | [Role] |
+| [Jan Hrusa] | [8848580] | [Project Manager, Code Review, Fixing and Formatting, Model Interface, Report Compilation and Formatting, Presentation Compilation] |
+| [Joslin Jolly] | [8964178] | [Model Training and Validation] |
+| [Zobia Shaikh] | [8881820] | [Data Preprocessing] |
+| [Marwa Khot] | [8963186] | [Model Evaluation] |
+| [Shazeel Ahmed] | [8958932] | [Hyperparameter Tuning] |
 
 ---
 
 ## References
 
-- Pedregosa, F. et al. (2011). Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830.
-- Prokhorenkova, L. et al. (2018). CatBoost: unbiased boosting with categorical features. *NeurIPS 2018*.
-- McKinney, W. (2010). Data Structures for Statistical Computing in Python. *Proceedings of the 9th Python in Science Conference*.
-- UAE Real Estate Dataset (2024). Source: [dataset source / Kaggle link].
-- University of Wollongong Dubai. (2026). *CSCI323 Modern Artificial Intelligence Project Description — Spring 2026*.
+- Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (pp. 785–794). Association for Computing Machinery. https://doi.org/10.1145/2939672.2939785
+- Kanchana1990. (2024). *UAE real estate 2024 dataset* [Data set]. Kaggle. https://www.kaggle.com/datasets/kanchana1990/uae-real-estate-2024-dataset
+- McKinney, W. (2010). Data structures for statistical computing in Python. In S. van der Walt & J. Millman (Eds.), *Proceedings of the 9th Python in Science Conference* (pp. 56–61). Python in Science Conference. https://proceedings.scipy.org/articles/Majora-92bf1922-00a.pdf
+- Micci-Barreca, D. (2001). A preprocessing scheme for high-cardinality categorical attributes in classification and prediction problems. *ACM SIGKDD Explorations Newsletter*, 3(1), 27–32. https://doi.org/10.1145/507533.507538
+- Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830. http://jmlr.org/papers/v12/pedregosa11a.html
+- Phan, T. D. (2018). Housing price prediction using machine learning algorithms: The case of Melbourne City, Australia. *In 2018 International Conference on Machine Learning and Data Engineering (iCMLDE)* (pp. 35–42). IEEE. https://doi.org/10.1109/iCMLDE.2018.00017
+- Prokhorenkova, L., et al. (2018). CatBoost: Unbiased boosting with categorical features. *In Advances in Neural Information Processing Systems* (Vol. 31, pp. 6638–6648). Curran Associates, Inc. https://proceedings.neurips.cc/paper_files/paper/2018/file/14491b756b3a51daac41c24863285549-Paper.pdf
+- Rosen, S. (1974). Hedonic prices and implicit markets: Product differentiation in pure competition. *Journal of Political Economy*, 82(1), 34–55. http://www.jstor.org/stable/1830899
+- Scikit-learn developers. (2025). HistGradientBoostingRegressor. *Scikit-learn documentation*. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html
+- Scikit-learn developers. (2025). RandomForestRegressor. *Scikit-learn documentation*. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+- Scikit-learn developers. (2025). Ridge. *Scikit-learn documentation*. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html
+- Scikit-learn developers. (2025). TargetEncoder. *Scikit-learn documentation*. https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.TargetEncoder.html
+- Yoo, S., Im, J., & Wagner, J. E. (2012). Variable selection for hedonic model using machine learning approaches: A case study in Onondaga County, *NY. Landscape and Urban Planning*, 107(3), 293–306. https://doi.org/10.1016/j.landurbplan.2012.06.009
+
 
 ---
 
-*For questions, contact the course instructors during office hours or via the LMS discussion forum.*
