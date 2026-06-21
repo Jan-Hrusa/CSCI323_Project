@@ -303,15 +303,13 @@ This project follows the code quality guidelines specified in the CSCI323 projec
 
 ## Team Contributions
 
-| Member | Student ID | Role |
+| Member | Student ID | Role/Responsibilities |
 |---|---|---|
-| [Name] | [ID] | [Role — e.g., Data Engineer, Model Developer] |
+| [Jan Hrusa] | [8848580] | [Project Manager, Code Review and Formatting, Report Compilation and Formatting, Presentation Compilation] |
 | [Name] | [ID] | [Role] |
 | [Name] | [ID] | [Role] |
 | [Name] | [ID] | [Role] |
 | [Name] | [ID] | [Role] |
-
-> Fill in team member details before submission.
 
 ---
 
